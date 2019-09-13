@@ -6,7 +6,7 @@ some are long, booming kick drums, some are metallic, twangy
 percussion.
 
 Given the relatively large sample library I've amassed, I
-figured I'd try applying $k$-means clustering to sort my large, messy
+figured I'd try applying k-means clustering to sort my large, messy
 collection of music samples into similar-sounding groups, to the point
 that I could draw up a given sound and find similar or complimentary
 sounds in my library.
@@ -45,4 +45,4 @@ low number of clusters. Regardless, the script will output softlinks
 to each of the sounds, organized according to cluster.
 
 In the future I might build out this portion of the code to allow the
-user to find e.g. the $n$-nearest sounds to an arbitrary input sound. 
+user to find e.g. the n-nearest sounds to an arbitrary input sound. 
