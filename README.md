@@ -39,8 +39,7 @@ are essentially the concatenation of the amplitude and pitch profiles.
 
 I haven't spent much effort
 trying to optimize the algorithm, as I've found that the usual
-approach of optimizing with respect to the average silhouette score
-(i.e. finding the "elbow" of the SSE curve) tends to create a fairly
+approach of finding the "elbow" of the SSE curve tends to create a fairly
 low number of clusters. Regardless, the script will output softlinks
 to each of the sounds, organized according to cluster.
 
